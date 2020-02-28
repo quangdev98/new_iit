@@ -1,0 +1,144 @@
+.detail-new{
+	padding:40px 0;
+}
+.detail-new span{
+	font-family: 'maven-pro';
+	font-size: 16px;
+	color:#484848;
+}
+.detail-new span svg{
+	width: 20px;
+	height: 20px
+}
+.detail-new span.share_face{
+	display: inline-block;
+	margin-left: 40px;
+	padding: 2px 7px;
+    border-radius: 4px;
+}
+.detail-new h2{
+	font-size: 35px;
+	color:#484848;
+	margin-bottom: 30px;
+	font-family: 'maven-pro', sans-serif;
+	font-weight: 600
+}
+.detail-new .share_face{
+	background:#4267b2;
+
+}
+.detail-new .share_face a{
+	color: #fff;
+	text-decoration: none;
+}
+.detail-new .post_new {
+	padding-top: 35px
+}
+.detail-new .post_new p{
+	font-size:16px;
+	text-align: justify;
+	line-height: 20px;
+	font-family: 'maven-pro';
+}
+.detail-new .post_new .img_new{
+	text-align:center;
+}
+.detail-new .post_new img{
+	width: 95%;
+	margin:auto;
+}
+.detail-new .auther{
+	font-style: italic;
+	text-align: right;
+    display: inherit;
+    font-family: 'maven-pro';
+}
+.detail-new ul.hastag{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 40px
+}
+.detail-new ul.hastag li:first-child span{
+	display: block;
+    border-left: 20px solid #ffc600;
+    padding-left: 5px;
+    background: #f5f5f5;
+    padding: 5px 10px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-size: 18px
+}
+.detail-new ul.hastag li a{
+	display: inline-block;
+	padding:2px 10px;
+	border:1px solid #484848;
+	color: #484848;
+	background:#fff;
+	margin-top: 2px;
+	transition: .4s;
+	text-decoration: none
+}
+.detail-new ul.hastag li a:hover{
+	background:#ffc600;
+	border-color: #ffc600;
+	color: #fff
+}
+.wrapRigh h2{
+	border-left: 20px solid #ffc600;
+    padding-left: 10px;
+    font-family: 'maven-pro';
+    font-weight: 100;
+    font-size: 22px;
+    background: #f5f5f5;
+    line-height: 50px;
+}
+.wrapRigh .list_new_hot{}
+.wrapRigh .list_new_hot .item_new{
+	padding-top: 15px;
+	border-bottom: thin solid #f5f5f5;
+}
+.wrapRigh .list_new_hot .item_new a{
+	font-size:16px;
+	font-family: 'maven-pro';
+	color: #484848;
+	text-decoration: none
+}
+.wrapRigh .list_new_hot .item_new svg{
+	width: 20px ;
+	height: 20px;
+	margin-right: 10px
+}
+.wrapRigh .list_new_hot .item_new span{
+	font-family: 'maven-pro';
+}
+.list_new_hot .item_new p{
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	margin-top: 3px;
+	font-size: 16px;
+	transition: all .4s
+}
+.list_new_hot .item_new .day_post{
+	font-size:15px;
+}
+.list_new_hot .item_new:hover p{
+	color: #ffc600
+}
+.wrapP_lisr{
+	background: #f5f5f5
+}
+.wrapP_lisr .new_here{
+	 font-family: 'maven-pro-bold';
+	 font-size:23px;
+	 padding-top: 10px;
+	 margin-bottom: 15px
+}
+@media(max-width: 584px){
+	.detail-new h2 {
+    	font-size: 26px;
+	}
+}

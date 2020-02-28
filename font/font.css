@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Unisect';
+  src: url("UnisectVnu.eot");
+  src: url("unisect/UnisectVnu.eot?#iefix") format("embedded-opentype"),
+    url("unisect/UnisectVnu.ttf") format("truetype"),
+    url("unisect/UnisectVnu.svg#Unisect") format("svg");
+}
+@font-face {
+  font-family: 'Unisect-bold';
+  src: url("UnisectVnu-Bold.eot");
+  src: url("unisect/UnisectVnu-Bold.eot?#iefix") format("embedded-opentype"),
+    url("unisect/UnisectVnu-Bold.ttf") format("truetype"),
+    url("unisect/UnisectVnu-Bold.svg#Unisect") format("svg");
+}
+@font-face {
+  font-family: 'maven-pro-bold';
+  src: url("maven-pro/MavenPro-Bold.eot");
+  src: url("maven-pro/MavenPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("maven-pro/MavenPro-Bold.ttf") format("truetype"),
+    url("maven-pro/MavenPro-Bold.svg#Unisect") format("svg");
+}
+@font-face {
+  font-family: 'maven-pro';
+  src: url("maven-pro/MavenPro-Regular.eot");
+  src: url("maven-pro/MavenPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("maven-pro/MavenPro-Regular.ttf") format("truetype"),
+    url("maven-pro/MavenPro-Regular.svg#Unisect") format("svg");
+}
+
+@font-face{
+	font-family:"Unisect Vnu Bolder";
+	src:url(//img.zing.vn/products/vng/skin-2018/fonts/UnisectVnu/UnisectVnu-Black.ttf);
+	font-weight:bolder}

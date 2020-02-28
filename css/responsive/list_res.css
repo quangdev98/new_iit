@@ -1,0 +1,16 @@
+@media(max-width: 992px){
+	.wraplist .title_list_img h2 {
+    	font-size: 30px;
+	}
+	.wraplist .wrap_img .gallery {
+    	column-count: 2;
+	}
+}
+@media(max-width: 992px){
+	.wraplist .title_list_img h2 {
+    	font-size: 27px;
+	}
+	.wraplist .wrap_img .gallery {
+    	column-count: 1;
+	}
+}

@@ -1,0 +1,15 @@
+@media (min-width: 576px){
+	.navigation_page .container {
+	    max-width: 100%;
+	}
+}
+@media (min-width: 992px){
+	.navigation_page .container {
+	    max-width: 960px;
+	}
+}
+@media (min-width: 1200px){
+	.navigation_page .container {
+    	max-width: 1140px;
+	}
+}

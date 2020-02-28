@@ -1,0 +1,326 @@
+@media(max-width: 1280px){
+	.us_pro .wrap_rightUs{
+		width: 100%
+	}
+	.us_pro .wrap_leftUs{
+		width: 100%;
+		padding-right: 40px;
+		margin-bottom: 30px
+
+	}
+}
+@media(max-width: 1200px){
+	.product .controler {
+		order:1;
+	}
+	.product .slide_img {
+		order:2;
+	}
+	.control_right a.title_product h2,
+	.aboutUs .title_abouUs h2 a,
+	.process .title_process h2 a,
+	.sucsec h2, .partner h2 {
+		font-size: 45px;
+		text-align: center
+	}
+	.icon_plus::before {
+	    bottom: 6.5px;
+	    width: 40px;
+	    height: 40px;
+	    left: -9px;
+	}
+	.control_right p.content_right {
+	    max-width: 100%;
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.product .control_right {
+		padding-left: 0;
+		padding-bottom: 0
+	}
+	 .control_right li span.title_control {
+	 	display: none
+	}
+	.control_right .carousel-indicators li {
+    	width: 25%;
+    	margin-left: 0;
+    	margin-bottom: 0;
+    	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	}
+	.product .carousel-indicators {
+		display: flex;
+		width: 80%;
+		margin-bottom: 0
+	}
+	.control_right li span.img_control {
+		margin-left: 0;
+		margin:auto;
+	}
+	.control_right .carousel-indicators li::before {
+	    content: "";
+	    background: #ffc600;
+	    width: 100px;
+	    height: 150px;
+	    border-top-right-radius: 0;
+	    border-bottom-right-radius: 0;
+	    transform: none;
+	    transform:translateY(100%);
+		
+	    border-top-left-radius: 80px;
+    	border-top-right-radius: 80px;
+    	width: 110px
+	}
+	.control_right .carousel-indicators li:hover::before {
+	    -webkit-transform: translateX(-50%);
+	    -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    -o-transform: translateX(-50%);
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+	.product .carousel-item .img_sli {
+    	height: 450px;
+	}
+	.product .carousel-item img {
+    	height: 420px;
+	}
+	.control_right .carousel-indicators li.active::before{
+		transform: translateX(-50%);
+		left:50%
+	}
+	.footer_last {
+		text-align:center;
+	}
+	.footer_last p.last_right {
+    	float: none;
+    	margin-top: 5px
+	}
+}
+@media(max-width: 1024px){
+	.control_right a.title_product h2,
+	.aboutUs .title_abouUs h2 a,
+	.process .title_process h2 a,
+	.sucsec h2, .partner h2 {
+		font-size: 40px;
+	}
+	.aboutUs .title_abouUs {
+		width: 100%;
+	}
+	.aboutUs .title_abouUs p,
+	.sucsec p,
+	.wrapper_process .content_ ,
+	.partner .container p {
+		font-size: 18px;
+		max-width: 100%
+	}
+}
+@media(max-width: 992px){
+	.product .carousel-caption {
+		bottom: 15px
+	}
+	.product .carousel-item img {
+    	height: 380px;
+    	margin-top: 20px;
+	}
+	.control_right a.title_product h2,
+	.aboutUs .title_abouUs h2 a,
+	.process .title_process h2 a, .sucsec h2,
+	.partner h2 {
+	    font-size: 35px;
+	}
+	.icon_plus {
+    	margin-left: 10px;
+	}
+	.icon_plus::before {
+	    bottom: 2.5px;
+	    width: 36px;
+	    height: 36px;
+	    left: -9px;
+	}
+	.wrapper_process ul.name_proces li a .title_pro {
+		display: none
+	}
+	.wrapper_process ul li a .year_proce span{
+		display: block;
+		text-indent: -999px;
+    width: 10px;
+    height: 10px;
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 2px solid;
+    border-color: transparent #111 #111 transparent;
+    left: 50%;
+    position: relative;
+    margin: 10px -5px;
+	}
+	.sucsec a {
+    	font-size: 22px;
+    	padding: 12px 26px;
+	}
+	/*logo*/
+	.containe-wrap .logo {
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    padding: 3px 0 3px 10px;
+	    width: 100%;
+	    background:#1c1e2b;
+	    z-index: 19
+	}
+	.containe-wrap .logo img{
+		width: 75px
+	}
+	.navigation .langue_toggle {
+		background: #30344a;
+    	color: #fff;
+    	border:none;
+	}
+	.navigation .open_nav {
+		background: #30344a;
+	}
+	.navigation .langue_toggle::after {
+		border-color: transparent #fff #fff transparent;
+	}
+	/*menu*/
+	.navigation-open .iit_left {
+		display: none
+	}
+	.iit_menuRight .nav-right {
+		height: calc(100vh - 75px);
+		margin-top: 75px
+	}
+	.navigation-open .iit_menuRight {
+	    padding-right: 15px;
+	}
+	.navigation-open .iit_menuRight nav {
+		text-align:left;
+	}
+	.iit_menuRight .li_parent.open_nav_child .icon_down::before {
+		right: 15px;
+		top: 26px;
+	}
+	.iit_menuRight nav ul li a {
+		font-size: 20px;
+		border-bottom: 1px solid #ccc;
+	}
+	.navigation-open .iit_menuRight nav {
+	    top: 0;
+	    transform: none;
+	}
+	.iit_menuRight .li_parent .nav_child {
+		text-align: left;
+	}
+	.navigation-open .logo_moblie {
+		display:none
+	}
+	.footer .maps {
+		margin-bottom: 30px
+	}
+}
+@media(max-width: 768px){
+	.us_pro {
+		background:#fff;
+		color: #484848
+	}
+	.us_pro::before{
+		display: none
+	}
+	.us_pro .wrap_leftUs{
+		padding-right: 0
+	}
+	.us_pro h2,
+	.us_pro p{
+		text-shadow: none;
+		font-size:16px
+	}
+	.us_pro h2{
+		font-size: 35px
+	}
+	.product .carousel-caption {
+		width: 90%
+	}
+	.product .carousel-inner .carousel-caption p{
+		font-size:16px
+	}
+	.item_partner {
+		text-align: center
+	}
+	.aboutUs .title_abouUs p,
+	 .sucsec p,
+	  .wrapper_process .content_,
+	   .partner .container p {
+	   	font-size: 16px
+	   }
+	.control_right .carousel-indicators li::before {
+	    height: 130px;
+	    width: 80px;
+	}
+	.control_right li span.img_control {
+    	width: 60px;
+    	height: 60px;
+	}
+	.process {
+		padding:0;
+	}
+	.slider-main .owl-theme .owl-dots .owl-dot span {
+	    width: 12px;
+	    height: 12px;
+	    margin: 5px 10px;
+	}
+	.slider-main .owl-theme .owl-dots {
+    	bottom: 10px;
+	}
+}
+@media(max-width: 667px){
+	.icon_plus::before {
+	    bottom: 5.5px;
+	    width: 30px;
+	    height: 30px;
+	    left: -7px;
+	}
+	.footer .social img {
+	    width: 50px;
+	    height: 50px;
+	}
+	.copyRight p {
+	    font-size: 14px;
+	}
+	.portfolioFilter a {
+		margin-bottom: 10px
+	}
+	.control_right li span.img_control {
+	    width: 50px;
+	    height: 50px;
+	}
+	.control_right .carousel-indicators li {
+		height: 80px
+	}
+}
+@media(max-width: 484px){
+	.sucsec .icon_plus{
+    	margin-left: 0;
+    	display: block;
+	}
+	.sucsec .icon_plus::before {
+	    bottom: 1px;
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+	.slider-main .item img {
+	    height: 58vh;
+	}
+	.control_right li span.img_control {
+	    width: 45px;
+	    height: 45px;
+	}
+	.control_right .carousel-indicators li {
+		height: 70px
+	}
+	.control_right a.title_product h2, .aboutUs .title_abouUs h2 a, .process .title_process h2 a, .sucsec h2, .partner h2 {
+	    font-size: 30px;
+	}
+}

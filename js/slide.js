@@ -1,0 +1,13 @@
+$('#slider_main').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
